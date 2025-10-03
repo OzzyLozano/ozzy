@@ -10,7 +10,6 @@
   @yield('navbar')
 
   <main>
-    @yield('title-section')
     @yield('content')
   </main>
 

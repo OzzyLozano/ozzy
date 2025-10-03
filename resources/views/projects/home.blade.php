@@ -1,16 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Proyectos')
 
 @section('navbar')
   @include('partials.navbar.home')
 @endsection
 
-@section('title-section')
-  <h2>Proyectos</h2>
-@endsection
-
 @section('content')
+  <section>
+    <h2>Proyectos</h2>
+  </section>
 @endsection
 
 @section('footer')
