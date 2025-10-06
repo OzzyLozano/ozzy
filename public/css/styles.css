@@ -48,6 +48,7 @@ a, p {
   }
 }
 
+/* navigation bar */
 nav {
   width: 100%;
   height: var(--navbar-height);
@@ -96,6 +97,7 @@ nav {
   }
 }
 
+/* home - introduction */
 .home {
   padding-top: var(--navbar-height);
   min-height: calc(100dvh);
@@ -160,6 +162,7 @@ nav {
   }
 }
 
+/* home - about me */
 .about {
   padding-top: var(--navbar-height);
   min-height: calc(100dvh);
@@ -243,7 +246,7 @@ nav {
 }
 @media (min-width: 768px) {
   .about-me, .technologies {
-    margin: 2rem 6rem;
+    margin: 0 6rem;
   }
   .projects-caroussel {
     width: 90%;
@@ -266,6 +269,7 @@ nav {
   }
 }
 
+/* home - tools */
 .dev-tools {
   display: flex;
   justify-content: space-around;
@@ -284,6 +288,55 @@ nav {
   object-fit: contain;
 }
 
+/* home - projects showcase */
+.projects {
+  padding-top: var(--navbar-height);
+  margin: auto 1rem;
+  min-height: 100dvh;
+  width: calc(100% - 2rem);
+  gap: 1rem;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project {
+  width: min(90%, 24rem);
+  background: rgba(255, 241, 241, 0.1);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.5rem);
+}
+.card {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#alerta-unida img {
+  padding: 4rem;
+}
+.card-title {
+  margin: 0 1rem 0;
+  font-size: 2rem;
+}
+.card-body {
+  font-size: 1.2rem;
+  margin: 0 1rem 0;
+}
+.card-link {
+  font-size: 1.2rem;
+  margin: 0 1rem 1rem;
+}
+
+/* footer */
 footer {
   width: min(90%, 48rem);
   border-radius: 2rem;

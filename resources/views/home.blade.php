@@ -41,13 +41,13 @@
       <div class="alerta-unida-icon-container">
         <img src="{{ asset('storage/projects/alerta_unida.png') }}" alt="alerta_unida.png">
         <menu class="project-info">
-          <a href="">Alerta Unida</a>
+          <a href="#proyectos">Alerta Unida</a>
         </menu>
       </div>
       <div class="tlakamik-icon-container">
         <img src="{{ asset('storage/projects/tlakamik.png') }}" alt="tlakamik.png">
         <menu class="project-info">
-          <a href="">Tlakamik</a>
+          <a href="#proyectos">Tlakamik</a>
         </menu>
       </div>
     </section>
@@ -86,11 +86,36 @@
         </div>
       </section>
       <p>
-        <br> Además de uso de bases de datos relacionales, tales como SQLite, y PostgreSQL.<br><br>
+        <br>Además de uso de bases de datos relacionales, tales como SQLite, y PostgreSQL.<br>
       </p>
     </aside>
   </section>
   <section id="proyectos" class="projects">
+    <div id="vindex" class="project card">
+      <img src="{{ asset('storage/projects/vindex.jpeg') }}" alt="vindex.jpg">
+      <h3 class="card-title">Vindex Abogados</h3>
+      <p class="card-body">
+        Vindex Abogados es un despacho jurídico en H. Matamoros Tamaulipas. <br>
+        En este proyecto, se realizó una aplicación web que permite tener un registro digital de sus reportes, y permitir a través de la página que sus clientes accedan a su respectivo informe.
+      </p>
+      <a href="https://vindexabogados.org/" target="_blank" class="card-link">Ir a la página</a>
+    </div>
+    <div id="alerta-unida" class="project card">
+      <img src="{{ asset('storage/projects/alerta_unida.png') }}" alt="alerta_unida.png">
+      <h3 class="card-title">Alerta Unida</h3>
+      <p class="card-body">
+        Alerta Unida es un sistema de software que busca mejorar los tiempos de respuesta en situaciones de emergencia. Consta de una aplicación móvil con interfaz web que en conjunto permiten la administración y gestión de emergencias en tiempo real.
+      </p>
+      <a href="#proyectos" class="card-link">Ir a la página</a>
+    </div>
+    <div id="tlakamik" class="project card">
+      <img src="{{ asset('storage/projects/tlakamik.png') }}" alt="tlakamik.png">
+      <h3 class="card-title">Tlakamik</h3>
+      <p class="card-body">
+        Tlakamik fué un proyecto con el objetivo de centralizar y digitalizar, por medio de una aplicación móvil, la información de las rutas del transporte público en Matamoros Tamaulipas, debido a la dificultad de acceso a esta información.
+      </p>
+      <a href="#proyectos" class="card-link">Ir a la página</a>
+    </div>
   </section>
 @endsection
 
