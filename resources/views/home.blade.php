@@ -53,7 +53,40 @@
     </section>
     <aside class="technologies">
       <p>
-        En estos proyectos, he aprendido y utilizado tecnologías variadas, como lo son:<br><br>
+        <br> En estos proyectos, he aprendido y utilizado herramientas y tecnologías variadas, como lo son:<br><br>
+      </p>
+      <section class="dev-tools">
+        <div class="tool">
+          <img src="{{ asset('storage/icons/HTML5.png') }}" alt="html5.png">
+          <p>HTML 5</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/css-3.svg') }}" alt="css3.svg" style="margin:1rem;">
+          <p>CSS 3</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/javascript.png') }}" alt="javascript.png" style="margin:1rem;">
+          <p>JavaScript</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/laravel.png') }}" alt="laravel.png" style="margin:1rem;">
+          <p>Laravel 12</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/react-native.png') }}" alt="react-native.png">
+          <p>ReactJS/React Native</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/flutter.png') }}" alt="flutter.png" style="margin:1rem;">
+          <p>Flutter</p>
+        </div>
+        <div class="tool">
+          <img src="{{ asset('storage/icons/oracle-cloud.png') }}" alt="oracle-cloud.png">
+          <p>Oracle Cloud Infrastructure</p>
+        </div>
+      </section>
+      <p>
+        <br> Además de uso de bases de datos relacionales, tales como SQLite, y PostgreSQL.<br><br>
       </p>
     </aside>
   </section>

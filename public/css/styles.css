@@ -266,6 +266,24 @@ nav {
   }
 }
 
+.dev-tools {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.tool {
+  width: min(90%, 12rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tool img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 footer {
   width: min(90%, 48rem);
   border-radius: 2rem;
