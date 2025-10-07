@@ -1,0 +1,8 @@
+/* general styles */
+@import 'components/styles.css';
+
+/* navigation bar */
+@import 'components/navbar.css';
+
+/* footer */
+@import 'components/footer.css';
